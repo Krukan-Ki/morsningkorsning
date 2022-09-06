@@ -23,7 +23,7 @@ class Destinations:
         self._internal_time = (self._internal_time + 1) % len(self._arrivals)
         # if == 1 -> W, if == 2 -> S, else -> None
         return 'W' if ind == 1 else 'S' if ind == 2 else None    
-    
+    "testing"
 def main():
     """Demonstrates the class destination"""
     dest = Destinations()
